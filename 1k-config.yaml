@@ -1,0 +1,12 @@
+- scenario: eoatx
+  name: "0 Value Transaction Spammer (1k)"
+  description: "Send 0 value transactions"
+  config:
+    seed: demo
+    refill_amount: 2000000000000000000 # 2 ETH
+    refill_balance: 1000000000000000000 # 1 ETH
+    refill_interval: 600 # 10 minutes
+    throughput: 1000
+    max_wallets: 1000
+    max_pending: 10000000
+    amount: 0
