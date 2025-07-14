@@ -1,8 +1,6 @@
-node clear-reth-dev-db.js
+node utils/clear-reth-dev-db.js
 
 ulimit -n unlimited
-
-echo $(ulimit -n)
 
 reth node --http --http.addr 0.0.0.0 \
 --http.port 8545 --http.api all \

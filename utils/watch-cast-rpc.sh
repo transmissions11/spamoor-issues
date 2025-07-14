@@ -1,0 +1,1 @@
+watch -n 0.1 'echo "Socket connections: $(lsof -i :8545 | wc -l)"; cast rpc txpool_status | node utils/parse_txpool.js'
