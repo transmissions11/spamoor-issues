@@ -23,7 +23,7 @@ reth node --http --http.addr 0.0.0.0 \
 --txpool.additional-validation-tasks 8 \
 --txpool.minimal-protocol-fee 0 \
 --txpool.minimum-priority-fee 0 \
---rpc.max-connections 10000000000000 \
+--rpc.max-connections 429496729 \
 --rpc.max-request-size 1000000 \
 --rpc.max-response-size 1000000 \
 --max-tx-reqs 1000000 \
