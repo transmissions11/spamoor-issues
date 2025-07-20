@@ -12,6 +12,10 @@ reth node --http --http.addr 0.0.0.0 \
 --txpool.pending-max-count 10000000000000 \
 --txpool.basefee-max-count 10000000000000 \
 --txpool.queued-max-count 10000000000000 \
+--txpool.pending-max-size 10000 \
+--txpool.basefee-max-size 10000 \
+--txpool.queued-max-size 10000 \
+--txpool.max-new-pending-txs-notifications 10000000 \
 --txpool.max-account-slots 500000 \
 --txpool.max-pending-txns 10000000000000 \
 --txpool.max-new-txns 10000000000000 \
