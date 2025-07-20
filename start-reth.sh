@@ -15,7 +15,6 @@ reth node --http --http.addr 0.0.0.0 \
 --txpool.max-account-slots 500000 \
 --txpool.max-pending-txns 10000000000000 \
 --txpool.max-new-txns 10000000000000 \
---txpool.max-new-pending-txs-notifications 10000000000000 \
 --txpool.disable-transactions-backup \
 --txpool.additional-validation-tasks 8 \
 --txpool.minimal-protocol-fee 0 \
